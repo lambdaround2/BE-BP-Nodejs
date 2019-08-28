@@ -6,6 +6,8 @@ Base URL = `https://ilovelambda.herokuapp.com/`
 
 - POST `/api/auth/register`
 - POST `/api/auth/login`
+- GET `/api/users` (return list of all users)
+- GET `/api/users/:id` (returns a single user by id)
 
 Both end points require an object with this shape/schema:
 
